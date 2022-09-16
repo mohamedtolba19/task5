@@ -1,0 +1,770 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  
+
+}
+.part1
+{
+    background-image: url(programmer-header.jpg);
+    background-position: center center;
+    background-size: cover;
+   
+}
+.layer
+{
+    background-color: black;
+    opacity: 0.8;
+}
+.section1
+{
+  
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    color: white;
+}
+.btn
+{
+   
+    border: none;
+    border-radius: 40%;
+    background-color: #20c997;
+    font-size: 17px;
+    color:#20c997 ;
+    background: none;
+    border: 2px solid #20c997;
+    transition: background 1s ,color 1s ;
+    margin-top: 30px;
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    font-weight: 700;
+   
+
+   
+    
+    
+
+}
+.btn:hover
+{
+    background: #20c997;
+    color: white;
+}
+.present p 
+{
+    margin-top: 30px;
+ 
+  
+   
+}
+.present h1
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+.present h2
+{
+    font-size: 30px;
+
+}
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    width: 100%;
+    z-index: 99999999999999999999;
+    background-color: black;
+  
+
+}
+ul
+{
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+   
+   
+}
+li
+{
+    margin: 10px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    
+   
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar h1
+{
+    color: white;
+    position: absolute;
+   
+    left: 30px;
+   
+}
+.icon
+{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    position: fixed;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    z-index: 99999999;
+    background-color:gray;
+   
+
+   
+}
+.present h1::after
+{
+    content: "|";
+    animation-name:typing ;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing {
+    0%{ content : "S|"}
+    1%{ content : "Si|"}
+    2%{ content : "Sim|"}
+    3%{ content : "Simo|"}
+    4%{ content : "Simon|"}
+    5%{ content : "Simone|"}
+    6%{ content : "Simone o|"}
+    7%{ content : "Simone ol|"}
+    8%{ content : "Simone oli|"}
+    9%{ content : "Simone oliv|"}
+    10%{ content : "Simone olivi|"}
+    11%{ content : "Simone olivia|"}
+    12%{ content : "Simone olivi|"}
+    13%{ content : "Simone oliv|"}
+    14%{ content : "Simone oli|"}
+    15%{ content : "Simone ol|"}
+    16%{ content : "Simone o|"}
+    17%{ content : "Simone |"}
+    18%{ content : "Simon |"}
+    19%{ content : "Simo |"}
+    20%{ content : "Sim |"}
+    22%{ content : "Si |"}
+    24%{ content : "S |"}
+    26%{ content : " |"}
+    28%{ content : "a |"}
+    30%{ content : "a f |"}
+    32%{ content : "a fr |"}
+    34%{ content : "a fre |"}
+    36%{ content : "a fren |"}
+    38%{ content : "a frenc |"}
+    40%{ content : "a frence |"}
+    42%{ content : "a frencer. |"}
+    44%{ content : "a frence |"}
+    46%{ content : "a frenc |"}
+    48%{ content : "a fren |"}
+    50%{ content : "a fre|"}
+    52%{ content : "a fr |"}
+    54%{ content : "a f |"}
+    56%{ content : "a p |"}
+    58%{ content : "a ph |"}
+    60%{ content : "a pho |"}
+    61%{ content : "a phot |"}
+    62%{ content : "a photo |"}
+    63%{ content : "a photog |"}
+    64%{ content : "a photogr|"}
+    65%{ content : "a photogre |"}
+    67%{ content : "a photographer |"}
+    69%{ content : "a photographe |"}
+    70%{ content : "a photograph |"}
+    72%{ content : "a photograp |"}
+    74%{ content : "a photogra |"}
+    76%{ content : "a photogr |"}
+    78%{ content : "a photog |"}
+    80%{ content : "a photo |"}
+    82%{ content : "a phot |"}
+    84%{ content : "a pho |"}
+    86%{ content : "a ph |"}
+    88%{ content : "a p|"}
+    90%{ content : "a |"}
+    90.5%{ content : "a D |"}
+    91%{ content : "a De |"}
+    91.5%{ content : "a Des|"}
+    92%{ content : "a Desi|"}
+    93.5%{ content : "a Desin|"}
+    94%{ content : "a Desine|"}
+    94.5%{ content : "a Desiner |"}
+    95%{ content : "a Desine |"}
+    95.5%{ content : "a Desin |"}
+    96%{ content : "a Desi |"}
+    96.5%{ content : "a Des |"}
+    97%{ content : "a De |"}
+    97.5%{ content : "a D |"}
+    99%{ content : "a  |"}
+    100%{ content : " |"}
+    0%           { content : "S|"}
+    1%     { content : "Si|"}
+    2%       { content : "Sim|"}
+    3%        { content : "Simo|"}
+    4%     { content : "Simon|"}
+    5%         { content : "Simone|"}
+    6%{ content : "Simone o|"}
+    7%{ content : "Simone ol|"}
+    8%{ content : "Simone oli|"}
+    9%{ content : "Simone oliv|"}
+    10%{ content : "Simone olivi|"}
+    11%{ content : "Simone olivia|"}
+    12%{ content : "Simone olivi|"}
+    13%{ content : "Simone oliv|"}
+    14%{ content : "Simone oli|"}
+    15%{ content : "Simone ol|"}
+    16%{ content : "Simone o|"}
+    17%{ content : "Simone |"}
+    18%{ content : "Simon |"}
+    19%{ content : "Simo |"}
+    20%{ content : "Sim |"}
+    22%{ content : "Si |"}
+    24%{ content : "S |"}
+    26%{ content : " |"}
+    28%{ content : "a |"}
+    30%{ content : "a f |"}
+    32%{ content : "a fr |"}
+    34%{ content : "a fre |"}
+    36%{ content : "a fren |"}
+    38%{ content : "a frenc |"}
+    40%{ content : "a frence |"}
+    42%{ content : "a frencer. |"}
+    44%{ content : "a frence |"}
+    46%{ content : "a frenc |"}
+    48%{ content : "a fren |"}
+    50%{ content : "a fre|"}
+    52%{ content : "a fr |"}
+    54%{ content : "a f |"}
+    56%{ content : "a p |"}
+    58%{ content : "a ph |"}
+    60%{ content : "a pho |"}
+    61%{ content : "a phot |"}
+    62%{ content : "a photo |"}
+    63%{ content : "a photog |"}
+    64%{ content : "a photogr|"}
+    65%{ content : "a photogre |"}
+    67%{ content : "a photographer |"}
+    69%{ content : "a photographe |"}
+    70%{ content : "a photograph |"}
+    72%{ content : "a photograp |"}
+    74%{ content : "a photogra |"}
+    76%{ content : "a photogr |"}
+    78%{ content : "a photog |"}
+    80%{ content : "a photo |"}
+    82%{ content : "a phot |"}
+    84%{ content : "a pho |"}
+    86%{ content : "a ph |"}
+    88%{ content : "a p|"}
+    90%{ content : "a |"}
+    90.5%{ content : "a D |"}
+    91%{ content : "a De |"}
+    91.5%{ content : "a Des|"}
+    92%{ content : "a Desi|"}
+    93.5%{ content : "a Desin|"}
+    94%{ content : "a Desine|"}
+    94.5%{ content : "a Desiner |"}
+    95%{ content : "a Desine |"}
+    95.5%{ content : "a Desin |"}
+    96%{ content : "a Desi |"}
+    96.5%{ content : "a Des |"}
+    97%{ content : "a De |"}
+    97.5%{ content : "a D |"}
+    99%{ content : "a  |"}
+    100%{ content : " |"}
+
+   
+   
+}
+.icon2
+{
+   color:red;
+}
+.part2
+{
+    text-align: center;
+    margin-top: 50px;
+
+    
+}
+.layer2
+{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.know
+{
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+}
+hr
+{
+    color: red;
+}
+.part2 p::after
+{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #20c997;
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    text-align:center;
+}
+.section2
+{
+    display: flex;
+    padding: 0px 50px;
+    margin-top: 50px;
+    height: auto;
+}
+.section2-1 
+{
+    width: 50%;
+}
+.sec2p
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+.span1
+{
+    color: #20c997;
+}
+.sec2p2
+{
+    padding: 10px;
+    font-size: 20px;
+}
+.section2-2 
+{
+    width: 50%;
+  
+}
+hr
+{
+    width: 100%;
+}
+.ul2
+{
+    display: block;
+    position: relative;
+}
+li{
+    list-style-type: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.span3
+{
+    font-weight: 900;
+    font-size: 18px;
+
+}
+.span4
+{
+    color: #20c997;
+}
+.btn2
+{
+    color: white;
+    background-color: #20c997;
+    border: none;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: #20c997 solid 1px;
+    border-radius:30px;
+    font-size: 20px;
+    transition: transform 1s;
+}
+.btn2:hover
+
+{
+    transform:scale(1.010)
+}
+.section3
+{
+    display: flex;
+  margin-bottom: 50px;
+    justify-content: space-around;
+    
+    
+
+}
+.num
+{
+    font-size: 50px;
+    font-weight: 900;
+    color: #313131;
+}
+.items
+{
+    border-right: dashed gray 1px;
+    padding: 0px 50px;
+    margin-top: 30px;
+}
+.part3
+{
+    height: 100vh;
+    margin-top: 50px;
+    text-align: center;
+}
+.what
+{
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    
+}
+.what::after
+{
+    content:'' ;
+    background-color: #20c997;
+    position: absolute;
+    top: 100%;
+    left: 47%;
+    width: 5%;
+    height: 7%;
+}
+
+.part3
+{
+    background-color: whitesmoke;
+    padding: 50px 0px;
+}
+.section3-p3
+{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.skill
+{
+    display: flex;
+    margin: 50px 20px;
+}
+.icon3
+{
+    color: #20c997;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   margin-right: 20px;
+}
+.section3-1
+{
+    margin-right: 50px;
+}
+.skill p
+{
+    
+    font-family: 'Poppins', sans-serif;
+}
+.part4
+{
+    margin-top: 50px;
+    text-align: center;
+    height: 100vh;
+ }
+ .section6
+ {
+     display: flex;
+     width: 90%;
+     margin: auto;
+     padding: 50px 50px;
+ }
+ .countiner6
+ {
+     margin-right: 50px;
+ }
+ .resume
+ {
+     position: relative;
+     font-size: 30px;
+    
+ }
+ .resume::after
+{
+    content:'' ;
+    background-color: #20c997;
+    position: absolute;
+    bottom: -10px;
+    left: 47%;
+    width: 6%;
+    height: 9%;
+}
+.item-r
+{
+    border: solid #dee2e6 1px;
+    padding: 20px 50px;
+    margin-bottom: 10px;
+    text-align: left;
+   
+}
+.year 
+{
+    background-color: #20c997;
+    color: white;
+   width: 25%;
+   border-radius: 30px;
+   padding: 5px 5px;
+   margin-bottom: 5px;
+   text-align: center;
+
+}
+.item-r h3
+{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.item-r h4
+{
+    color: #dc3545;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.definition
+{
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.countiner6 h2 
+{
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+.countainer6-2 
+{
+    text-align: left;
+}
+.countainer6-2 h2
+{
+    margin-bottom: 30px;
+}
+input 
+{
+    width: 500px;
+   
+}
+.skills
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-work
+{
+    
+text-align: center;
+    font-size: 20px;
+    position: relative;
+}
+.nav2
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.nav2 a 
+{
+    color:#313131;
+    text-decoration: none;
+    
+}
+.work
+{
+    position: relative;
+}
+
+.work::after
+{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 47%;
+    width: 6%;
+    height: 9%;
+    background-color: #20c997;
+}
+.container
+{
+  display: flex;
+ 
+    width: 80%;
+    margin: auto;
+   
+  
+   
+}
+.img
+{
+    width: 33.333%;
+    padding: 10px 10px ;
+}
+.member
+{
+    width: 100%;
+    background-color: #313131;
+    position: relative;
+    margin-bottom: 20px;
+    
+
+  
+}
+
+img
+{
+    width: 100%;
+  
+}
+.img-content
+{
+    background-color: rgba(31, 31,31, 0.8) ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    color: white;
+    font-size: 14px;
+    transition: opacity 0.5s ;
+
+}
+.member:hover .img-content
+{
+   opacity: 1;
+}
+
+.client 
+{
+    position: relative;
+    font-size: 30px;
+}
+.client::after
+{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 47%;
+    width: 6%;
+    height: 9%;
+    background-color: #20c997;
+}
+.container2
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 0px 10px;
+    margin-top: 50px;
+  
+
+}
+.padding
+{
+    width: 50%;
+    padding: 0px 20px;
+}
+.feedback
+{
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: left;
+    padding: 10px 50px;
+   
+    margin-right: 10px;
+   
+    
+  
+}
+.element
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+.element img 
+{
+    width: 15%;
+    border-radius: 50%;
+}
+.caption
+{
+    padding: 10px 10px;
+ 
+}
+.caption h2 
+{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.feedback p 
+{
+    font-size: 18px;
+    font-weight: 200;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+.star 
+{
+    color: gold ;
+    font-size: 14px;
+
+}
+.fed 
+{
+    font-size: 15px;
+}
+.get 
+{
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+.get::after
+{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 47%;
+    width: 6%;
+    height: 9%;
+    background-color: #20c997;
+}
+
